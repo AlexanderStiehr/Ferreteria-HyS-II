@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #ebc57e;
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header nav{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .frente img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(134, 134, 167);
+    justify-content: space-evenly;
+}
+main section{
+    margin: 5px;
+}
+main section .nosotros img{
+    max-width: 100%;
+    max-height: 450px;
+    display: block; 
+    margin: 0 auto; 
+}
+main section .nosotros h3{
+    text-align: left;
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(73, 30, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+main section .nosotros p{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    text-align: left;
+    line-height: 35px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+main section .personal{
+    width: 19rem;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+main section .personal img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+main section .personal h3{
+    text-align: center;
+    font-size: large;
+    color: rgb(218, 194, 176);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+main section .personal p{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(240, 248, 255);
+    text-align: center;
+    line-height: 30px;
+}
+
+main section .productos{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+main section .productos legend{
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+main section .productos h3{
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(73, 30, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+main section .productos iframe{
+    max-width: 100%;
+    max-height: 450px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+main section .contacto{
+    text-align: left;
+}
+main section .contacto h3{
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(73, 30, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+main section .contacto legend{
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+main section .contacto label{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    margin: 10px;
+}
+main section .contacto input{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    justify-content: space-between;
+}
+main section .contacto button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    float:left;
+    margin: 20px;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #816633;
+    flex-wrap: wrap;
+}
+footer .copy{
+    color: rgb(240, 248, 255);
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+footer .redes{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+footer .redes a{
+    padding: 5px;
+    color: rgba(240, 248, 255, 0.89);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
